@@ -828,7 +828,7 @@ do
   -- vim.pack.add { gh 'rafamadriz/friendly-snippets' }
   -- require('luasnip.loaders.from_vscode').lazy_load()
   --
-  vim.pack.add { { src = gh 'windwp/nvim-ts=autotag' } }
+  vim.pack.add { { src = gh 'windwp/nvim-ts-autotag' } }
   require('nvim-ts-autotag').setup {}
 
   -- [[ Autocomplete Engine ]]
